@@ -3,7 +3,7 @@ class Solution {
         int n = s.length();
 
         for(int i=0; i<n; i++){
-            if(s.charAt(i) != 'b')continue;
+            if(s.charAt(i) == 'a')continue;
             for(int j =i+1; j<n; j++){
                 if(s.charAt(j) == 'a')return false;
             }
